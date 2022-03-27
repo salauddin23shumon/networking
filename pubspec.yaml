@@ -1,0 +1,28 @@
+name: dio_networking
+description: A new Flutter project.
+
+publish_to: 'none'
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.4
+  dio: ^4.0.4
+  json_annotation: ^4.4.0
+
+dev_dependencies:
+  json_serializable: ^6.1.4
+  build_runner: ^2.1.7
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
